@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ItemInventoryAPI.DTOModels;
 using ItemInventoryAPI.Models;
-using ItemInventoryAPI.ModelsDTO;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -147,6 +147,52 @@ namespace ItemInventoryAPI.Controllers
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetItem", new { id = item.Id }, item);
+        }
+
+        // POST: api/Items
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        [HttpPost("/api/Radio")]
+        public async Task<ActionResult<Item>> PostRadio(RadioDTO radioDto)
+        {
+            if (_context.Items == null)
+            {
+                return Problem("Entity set 'ItemInventoryContext.Items'  is null.");
+            }
+            var radio = new Radio
+            {
+                Id = radioDto.Id,
+                Name = radioDto.Name,
+                SerialNumber = radioDto.SerialNumber,
+                InInventory = radioDto.InInventory,
+                HasBattery = radioDto.HasBattery
+            };
+            _context.Items.Add(radio);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction("GetItem", new { id = radio.Id }, radio);
+        }
+
+        // POST: api/Items
+        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        [HttpPost("/api/Antenna")]
+        public async Task<ActionResult<Item>> PostAntenna(AntennaDTO antennaDto)
+        {
+            if (_context.Items == null)
+            {
+                return Problem("Entity set 'ItemInventoryContext.Items'  is null.");
+            }
+            var antenna = new Antenna
+            {
+                Id = antennaDto.Id,
+                Name = antennaDto.Name,
+                SerialNumber = antennaDto.SerialNumber,
+                InInventory = antennaDto.InInventory,
+                HasAllParts = antennaDto.HasAllParts,
+            };
+            _context.Items.Add(antenna);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction("GetItem", new { id = antenna.Id }, antenna);
         }
 
         // DELETE: api/Items/5
