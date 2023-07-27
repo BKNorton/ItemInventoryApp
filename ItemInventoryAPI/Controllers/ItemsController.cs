@@ -31,16 +31,13 @@ namespace ItemInventoryAPI.Controllers
               return NotFound();
           }
 
-            var itemsDTO = await _context.Items
-                  .Select(x => new ItemDTO
-                  {
-                      Id = x.Id,
-                      Name = x.Name,
-                      SerialNumber = x.SerialNumber,
-                      InInventory = x.InInventory,
-                  }).ToListAsync();
-
-            return itemsDTO;
+          return await _context.Items.Select(x => new ItemDTO
+          {
+              Id = x.Id,
+              Name = x.Name,
+              SerialNumber = x.SerialNumber,
+              InInventory = x.InInventory,
+          }).ToListAsync();
         }
 
         // GET: api/Items/5
@@ -52,14 +49,14 @@ namespace ItemInventoryAPI.Controllers
               return NotFound();
           }
             var itemDTO = await _context.Items
-                    .Where(x => x.Id == id)
-                    .Select(x => new ItemDTO
-                    {
-                        Id = x.Id,
-                        Name = x.Name,
-                        SerialNumber = x.SerialNumber,
-                        InInventory = x.InInventory,
-                    }).FirstOrDefaultAsync();
+            .Where(x => x.Id == id)
+            .Select(x => new ItemDTO
+            {
+                Id = x.Id,
+                Name = x.Name,
+                SerialNumber = x.SerialNumber,
+                InInventory = x.InInventory,
+            }).FirstOrDefaultAsync();
 
             if (itemDTO == null)
             {
@@ -69,38 +66,43 @@ namespace ItemInventoryAPI.Controllers
             return itemDTO;
         }
 
-        //// GET: api/Items/5
-        //[HttpGet("{id}")]
-        //[Route("/GetItemHistory")]
-        //public async Task<ActionResult<CheckoutDTO>> GetItemHistory(Guid id)
-        //{
-        //    if (_context.Items == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    var item = await _context.Items.FindAsync(id);
+        // GET: api/Items/5
+        [HttpGet("{id}/ItemHistory")]
+        public async Task<ActionResult<List<Checkout>>> GetItemHistory(Guid id)
+        {
+            if (_context.Items == null)
+            {
+                return NotFound();
+            }
+            var item = await _context.Items.Include(i => i.Checkouts).Where(i => i.Id == id).FirstOrDefaultAsync();
 
-        //    if (item == null)
-        //    {
-        //        return NotFound();
-        //    }
+            if (item == null)
+            {
+                return NotFound();
+            }
+
+            return item.Checkouts;
+        }
 
 
-
-        //    return itemDTO;
-        //}
 
 
         // PUT: api/Items/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutItem(Guid id, Item item)
+        public async Task<IActionResult> PutItem(Guid id, ItemDTO itemDTO)
         {
-            if (id != item.Id)
+            if (id != itemDTO.Id)
             {
                 return BadRequest();
             }
-
+            var item = new Item { 
+                Id = itemDTO.Id,
+                Name = itemDTO.Name,
+                SerialNumber = itemDTO.SerialNumber,
+                InInventory = itemDTO.InInventory
+            };
+            _context.Items.Attach(item);
             _context.Entry(item).State = EntityState.Modified;
 
             try
@@ -131,15 +133,16 @@ namespace ItemInventoryAPI.Controllers
           {
               return Problem("Entity set 'ItemInventoryContext.Items'  is null.");
           }
-            //var item = await _context.Items.FindAsync(id);
-            //var item = await _context.Items.Include(item => item.History).FirstAsync(item => item.Id == id);
-            var item = new Item()
+
+            var item = new Item
             {
                 Id = itemDTO.Id,
+                Name = itemDTO.Name,
                 SerialNumber = itemDTO.SerialNumber,
                 InInventory = itemDTO.InInventory,
-                Name = itemDTO.Name,
+                Checkouts = new List<Checkout>()
             };
+
             _context.Items.Add(item);
             await _context.SaveChangesAsync();
 

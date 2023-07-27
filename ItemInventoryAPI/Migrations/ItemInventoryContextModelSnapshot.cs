@@ -33,7 +33,7 @@ namespace ItemInventoryAPI.Migrations
                     b.Property<DateTime>("DateReturned")
                         .HasColumnType("TEXT");
 
-                    b.Property<Guid>("ItemId")
+                    b.Property<Guid?>("ItemId")
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
@@ -66,13 +66,9 @@ namespace ItemInventoryAPI.Migrations
 
             modelBuilder.Entity("ItemInventoryAPI.Models.Checkout", b =>
                 {
-                    b.HasOne("ItemInventoryAPI.Models.Item", "Item")
+                    b.HasOne("ItemInventoryAPI.Models.Item", null)
                         .WithMany("Checkouts")
-                        .HasForeignKey("ItemId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Item");
+                        .HasForeignKey("ItemId");
                 });
 
             modelBuilder.Entity("ItemInventoryAPI.Models.Item", b =>
