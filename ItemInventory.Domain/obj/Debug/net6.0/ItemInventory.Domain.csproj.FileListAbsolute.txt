@@ -1,0 +1,12 @@
+C:\Users\Kirk\Documents\CodeLouisville\ItemInventoryApp\ItemInventory.Domain\bin\Debug\net6.0\ItemInventory.Domain.deps.json
+C:\Users\Kirk\Documents\CodeLouisville\ItemInventoryApp\ItemInventory.Domain\bin\Debug\net6.0\ItemInventory.Domain.dll
+C:\Users\Kirk\Documents\CodeLouisville\ItemInventoryApp\ItemInventory.Domain\bin\Debug\net6.0\ItemInventory.Domain.pdb
+C:\Users\Kirk\Documents\CodeLouisville\ItemInventoryApp\ItemInventory.Domain\obj\Debug\net6.0\ItemInventory.Domain.csproj.AssemblyReference.cache
+C:\Users\Kirk\Documents\CodeLouisville\ItemInventoryApp\ItemInventory.Domain\obj\Debug\net6.0\ItemInventory.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kirk\Documents\CodeLouisville\ItemInventoryApp\ItemInventory.Domain\obj\Debug\net6.0\ItemInventory.Domain.AssemblyInfoInputs.cache
+C:\Users\Kirk\Documents\CodeLouisville\ItemInventoryApp\ItemInventory.Domain\obj\Debug\net6.0\ItemInventory.Domain.AssemblyInfo.cs
+C:\Users\Kirk\Documents\CodeLouisville\ItemInventoryApp\ItemInventory.Domain\obj\Debug\net6.0\ItemInventory.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Kirk\Documents\CodeLouisville\ItemInventoryApp\ItemInventory.Domain\obj\Debug\net6.0\ItemInventory.Domain.dll
+C:\Users\Kirk\Documents\CodeLouisville\ItemInventoryApp\ItemInventory.Domain\obj\Debug\net6.0\refint\ItemInventory.Domain.dll
+C:\Users\Kirk\Documents\CodeLouisville\ItemInventoryApp\ItemInventory.Domain\obj\Debug\net6.0\ItemInventory.Domain.pdb
+C:\Users\Kirk\Documents\CodeLouisville\ItemInventoryApp\ItemInventory.Domain\obj\Debug\net6.0\ref\ItemInventory.Domain.dll

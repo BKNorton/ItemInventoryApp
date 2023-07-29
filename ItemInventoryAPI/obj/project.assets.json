@@ -4093,6 +4093,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "ItemInventory.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ItemInventory.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ItemInventory.Domain.dll": {}
+        }
       }
     }
   },
@@ -11685,10 +11695,16 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "ItemInventory.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ItemInventory.Domain/ItemInventory.Domain.csproj",
+      "msbuildProject": "../ItemInventory.Domain/ItemInventory.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "ItemInventory.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.9",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.20",
       "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.9",
@@ -11704,9 +11720,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kirk\\Documents\\CodeLouisville\\ItemInventoryApp\\ItemInventoryAPI\\ItemInventoryAPI.csproj",
-      "projectName": "ItemInventoryAPI",
-      "projectPath": "C:\\Users\\Kirk\\Documents\\CodeLouisville\\ItemInventoryApp\\ItemInventoryAPI\\ItemInventoryAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Kirk\\Documents\\CodeLouisville\\ItemInventoryApp\\ItemInventoryAPI\\ItemInventory.API.csproj",
+      "projectName": "ItemInventory.API",
+      "projectPath": "C:\\Users\\Kirk\\Documents\\CodeLouisville\\ItemInventoryApp\\ItemInventoryAPI\\ItemInventory.API.csproj",
       "packagesPath": "C:\\Users\\Kirk\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Kirk\\Documents\\CodeLouisville\\ItemInventoryApp\\ItemInventoryAPI\\obj\\",
       "projectStyle": "PackageReference",
@@ -11730,7 +11746,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Kirk\\Documents\\CodeLouisville\\ItemInventoryApp\\ItemInventory.Domain\\ItemInventory.Domain.csproj": {
+              "projectPath": "C:\\Users\\Kirk\\Documents\\CodeLouisville\\ItemInventoryApp\\ItemInventory.Domain\\ItemInventory.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
