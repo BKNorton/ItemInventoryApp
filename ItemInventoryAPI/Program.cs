@@ -1,4 +1,7 @@
-using ItemInventoryAPI;
+using ItemInventory.API;
+using ItemInventory.API.DTOModels;
+using ItemInventory.API.Models;
+using ItemInventory.API.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,7 +12,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ItemInventoryContext>();
-
+builder.Services.AddTransient<IRepository<ItemDTO>, ItemRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

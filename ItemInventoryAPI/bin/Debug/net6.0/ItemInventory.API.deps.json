@@ -8,8 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "ItemInventory.API/1.0.0": {
         "dependencies": {
-          "ItemInventory.Domain": "1.0.0",
-          "Microsoft.EntityFrameworkCore.Design": "7.0.9",
+          "Microsoft.EntityFrameworkCore": "7.0.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.20",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.9",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.9",
@@ -2788,11 +2787,6 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
         }
-      },
-      "ItemInventory.Domain/1.0.0": {
-        "runtime": {
-          "ItemInventory.Domain.dll": {}
-        }
       }
     }
   },
@@ -4418,11 +4412,6 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
-    },
-    "ItemInventory.Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

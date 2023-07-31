@@ -1,4 +1,4 @@
-﻿namespace ItemInventoryAPI.Models
+﻿namespace ItemInventory.API.Models
 {
     public class Radio : Item
     {

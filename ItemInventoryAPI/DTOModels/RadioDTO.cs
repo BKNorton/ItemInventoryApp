@@ -1,4 +1,4 @@
-﻿namespace ItemInventoryAPI.DTOModels
+﻿namespace ItemInventory.API.DTOModels
 {
     public class RadioDTO : ItemDTO
     {

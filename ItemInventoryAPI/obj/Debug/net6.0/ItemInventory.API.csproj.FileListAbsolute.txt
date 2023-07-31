@@ -266,8 +266,6 @@ C:\Users\Kirk\Documents\CodeLouisville\ItemInventoryApp\ItemInventoryAPI\bin\Deb
 C:\Users\Kirk\Documents\CodeLouisville\ItemInventoryApp\ItemInventoryAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Kirk\Documents\CodeLouisville\ItemInventoryApp\ItemInventoryAPI\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 C:\Users\Kirk\Documents\CodeLouisville\ItemInventoryApp\ItemInventoryAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\Kirk\Documents\CodeLouisville\ItemInventoryApp\ItemInventoryAPI\bin\Debug\net6.0\ItemInventory.Domain.dll
-C:\Users\Kirk\Documents\CodeLouisville\ItemInventoryApp\ItemInventoryAPI\bin\Debug\net6.0\ItemInventory.Domain.pdb
 C:\Users\Kirk\Documents\CodeLouisville\ItemInventoryApp\ItemInventoryAPI\obj\Debug\net6.0\ItemInventory.API.csproj.AssemblyReference.cache
 C:\Users\Kirk\Documents\CodeLouisville\ItemInventoryApp\ItemInventoryAPI\obj\Debug\net6.0\ItemInventory.API.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Kirk\Documents\CodeLouisville\ItemInventoryApp\ItemInventoryAPI\obj\Debug\net6.0\ItemInventory.API.AssemblyInfoInputs.cache

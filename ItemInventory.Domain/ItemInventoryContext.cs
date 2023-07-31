@@ -1,7 +1,7 @@
-﻿using ItemInventory.API.Models;
+﻿using ItemInventoryAPI.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace ItemInventory.API
+namespace ItemInventoryAPI
 {
     public class ItemInventoryContext : DbContext
     {

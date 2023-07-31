@@ -5,10 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using ItemInventoryAPI;
-using ItemInventoryAPI.Models;
+using ItemInventory.API.Models;
 
-namespace ItemInventoryAPI.Controllers
+namespace ItemInventory.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
