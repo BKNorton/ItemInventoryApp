@@ -21,11 +21,11 @@ Features :
   4. Make your application asynchronous.
      - The API utilizes asymcronous programming in the Controllers and Repositories.
     
-  Instructions :
+Instructions :
     - No data is seeded to the inventory. Follow these instructions to create an Inventory to work with.
-    1. Run the App in Debug mode and wait for the swagger page to open
-    2. Click on Post Radio for Items
-      - add the following items.
+  1. Run the App in Debug mode and wait for the swagger page to open
+  2. Click on Post Radio for Items
+    - add the following items.
       
           {
             "name": "Radio",
@@ -49,7 +49,7 @@ Features :
           }         
           
    3. Click on Post Antenna for Items 
-    - add the following items
+     - add the following items
 
           {
             "name": "Antenna",
@@ -86,4 +86,4 @@ Features :
           }
 
   7. Click on GetItemHistory for Items
-    - Use the same Item id you used to create the previous Checkouts and execute to see Items Checkouts
+     - Use the same Item id you used to create the previous Checkouts and execute to see Items Checkouts
