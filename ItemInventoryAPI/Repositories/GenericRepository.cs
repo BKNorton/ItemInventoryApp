@@ -1,5 +1,6 @@
 ﻿
 using ItemInventory.API.DTOModels;
+using ItemInventory.API.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -21,23 +22,28 @@ namespace ItemInventory.API.Repositories
         {
             _context = context;
         }
-        public virtual T Add(T entity)
+        public async virtual Task<ActionResult<T>> Add(T entity)
         {
-            return _context.Add(entity).Entity;
+            return new OkObjectResult( await _context.AddAsync(entity));
         }
 
-        public virtual void Delete(Guid id)
+        public async virtual Task<ActionResult> Delete(Guid id)
         {
-            _context.Remove(id);
-            SaveChanges();
+            var item = await _context.Set<T>().FindAsync(id);
+            if (item == null)
+            {
+                return new NotFoundObjectResult(item);
+            }
+            _context.Remove(item);
+            return await SaveChanges();
         }
 
-        public virtual IEnumerable<T> Find(Expression<Func<T, bool>> predicate)
+        public async virtual Task<ActionResult<List<T>>> Find(Expression<Func<T, bool>> predicate)
         {
-            return _context.Set<T>()
+            return await _context.Set<T>()
                 .AsQueryable()
                 .Where(predicate)
-                .ToList();
+                .ToListAsync();
         }
 
         public async virtual Task<ActionResult<T>>? Get(Guid id)
@@ -49,14 +55,14 @@ namespace ItemInventory.API.Repositories
         {
             return  await _context.Set<T>().ToListAsync();
         }
-        public virtual T Update(T entity)
+        public async virtual Task<IActionResult> Update(T entity)
         {
-            return _context.Update(entity).Entity;
+            return new OkObjectResult(_context.Update(entity));
         }
 
-        public void SaveChanges()
+        public async virtual Task<ActionResult> SaveChanges()
         {
-            _context.SaveChanges();
+            return new OkObjectResult(await _context.SaveChangesAsync());
         }
 
         public bool IsNull()

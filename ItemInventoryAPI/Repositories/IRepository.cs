@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using ItemInventory.API.Models;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,13 +11,13 @@ namespace ItemInventory.API.Repositories
 {
     public interface IRepository<T> 
     {
-        T Add(T entity);
-        void Delete(Guid id);
+        Task<ActionResult<T>> Add(T entity);
+        Task<ActionResult> Delete(Guid id);
         Task<ActionResult<T>>? Get(Guid id);
-        T Update(T entity);
-        public Task<ActionResult<IEnumerable<T>>>? GetAll();
-        IEnumerable<T> Find(Expression<Func<T, bool>> predicate);
-        void SaveChanges();
+        Task<IActionResult> Update(T entity);
+        Task<ActionResult<IEnumerable<T>>>? GetAll();
+        Task<ActionResult<List<T>>> Find(Expression<Func<T, bool>> predicate);
+        Task<ActionResult> SaveChanges();
         bool IsNull();
     }
 }

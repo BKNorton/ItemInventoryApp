@@ -12,6 +12,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ItemInventoryContext>();
+builder.Services.AddTransient<IItemRepository, ItemRepository>();
 builder.Services.AddTransient<IRepository<ItemDTO>, ItemRepository>();
 var app = builder.Build();
 
