@@ -23,8 +23,8 @@ Features :
     
   Instructions :
     - No data is seeded to the inventory. Follow these instructions to create an Inventory to work with.
-    - Run the App in Debug mode and wait for the swagger page to open
-    - Click on Post Radio for Items
+    1. Run the App in Debug mode and wait for the swagger page to open
+    2. Click on Post Radio for Items
       - add the following items.
       
           {
@@ -48,7 +48,7 @@ Features :
             "hasBattery": false
           }         
           
-  - Click on Post Antenna for Items 
+   3. Click on Post Antenna for Items 
     - add the following items
 
           {
@@ -67,9 +67,9 @@ Features :
             "type": "OE-254"
           }
 
-    - Click on Get for Items
-    - Copy the Items Id from any Item
-    - Click on Post for Checkout
+   4. Click on Get for Items
+   5. Copy the Items Id from any Item
+   6. Click on Post for Checkout
         
           {
             "itemId": {item id you just copied},
@@ -85,5 +85,5 @@ Features :
             "checkedoutTo": "ALOC"
           }
 
-      - Click on GetItemHistory for Items
-        - Use the same Item id you used to create the previous Checkouts and execute to see Items Checkouts
+  7. Click on GetItemHistory for Items
+    - Use the same Item id you used to create the previous Checkouts and execute to see Items Checkouts
