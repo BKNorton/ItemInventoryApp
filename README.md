@@ -9,7 +9,7 @@ Description :
 
 Features :
   1. Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program.
-    - Lists are used throughout this project. An example can be found in the Item class where it uses a list of type Checkout.
+     - Lists are used throughout this project. An example can be found in the Item class where it uses a list of type Checkout.
       This list can be populated by creating Checkouts and this list can also be retrieved through this API.
 
   2. Make a generic class and use it.
@@ -22,33 +22,35 @@ Features :
      - The API utilizes asymcronous programming in the Controllers and Repositories.
     
   Instructions :
-    No data is seeded to the inventory. Follow these instructions to create an Inventory to work with.
-      - Run the App in Debug mode and wait for the swagger page to open
-      - Click on Post Radio for Items
-      - add the following items
+    - No data is seeded to the inventory. Follow these instructions to create an Inventory to work with.
+    - Run the App in Debug mode and wait for the swagger page to open
+    - Click on Post Radio for Items
+      - add the following items.
+      
           {
             "name": "Radio",
             "serialNumber": 1234,
             "inInventory": true,
             "hasBattery": false
-          }
-
+          },
+  
           {
             "name": "Radio",
             "serialNumber": 3395,
             "inInventory": true,
             "hasBattery": false
-          }
-
+          },
+  
           {
             "name": "Radio",
             "serialNumber": 4545,
             "inInventory": true,
             "hasBattery": false
-          }
+          }         
           
-      - Click on Post Antenna for Items 
-        - add the following items
+  - Click on Post Antenna for Items 
+    - add the following items
+
           {
             "name": "Antenna",
             "serialNumber": 9999,
@@ -65,23 +67,23 @@ Features :
             "type": "OE-254"
           }
 
-      - Click on Get for Items
-        - Copy the Items Id from any Item
-
-      - Click on Post for Checkout
-        {
-          "itemId": {item id you just copied},
-          "dateCheckedout": this will populate itself for now,
-          "dateReturned": this will populate itself for now,
-          "checkedoutTo": "Hill"
-        }
-
-        {
-          "itemId": {Item id you just copied},
-          "dateCheckedout": this will populate itself for now,
-          "dateReturned": this will populate itself for now,
-          "checkedoutTo": "ALOC"
-        }
+    - Click on Get for Items
+    - Copy the Items Id from any Item
+    - Click on Post for Checkout
+        
+          {
+            "itemId": {item id you just copied},
+            "dateCheckedout": this will populate itself for now,
+            "dateReturned": this will populate itself for now,
+            "checkedoutTo": "Hill"
+          }
+  
+          {
+            "itemId": {Item id you just copied},
+            "dateCheckedout": this will populate itself for now,
+            "dateReturned": this will populate itself for now,
+            "checkedoutTo": "ALOC"
+          }
 
       - Click on GetItemHistory for Items
         - Use the same Item id you used to create the previous Checkouts and execute to see Items Checkouts
