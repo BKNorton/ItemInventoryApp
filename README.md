@@ -26,8 +26,9 @@ Entity Framework API to track an inventory of Items
 # Instructions :
 
   - No data is seeded to the inventory. Follow these instructions to create an Inventory to work with.
-  1. Run the App in Debug mode and wait for the swagger page to open
-  2. Click on Post Radio for Items
+  1. Update the migrations
+  2. Run the App in Debug mode and wait for the swagger page to open
+  3. Click on Post Radio for Items
     - add the following items.
       
           {
@@ -51,7 +52,7 @@ Entity Framework API to track an inventory of Items
             "hasBattery": false
           }         
           
-   3. Click on Post Antenna for Items 
+   4. Click on Post Antenna for Items 
      - add the following items
 
           {
@@ -70,9 +71,9 @@ Entity Framework API to track an inventory of Items
             "type": "OE-254"
           }
 
-   4. Click on Get for Items
-   5. Copy the Items Id from any Item
-   6. Click on Post for Checkout
+   5. Click on Get for Items
+   6. Copy the Items Id from any Item
+   7. Click on Post for Checkout
         
           {
             "itemId": {item id you just copied},
@@ -88,5 +89,5 @@ Entity Framework API to track an inventory of Items
             "checkedoutTo": "ALOC"
           }
 
-  7. Click on GetItemHistory for Items
+  8. Click on GetItemHistory for Items
      - Use the same Item id you used to create the previous Checkouts and execute to see Items Checkouts
