@@ -4,7 +4,7 @@ Entity Framework API to track an inventory of Items
 # Description 
 
   This app is an API for managing Items in an inventory. It uses Entity Framework to create a database in a local file created 
-  by Visual Studios. This is specifically designed to use with the National Guard for the S6 shop at the armory I work at. 
+  by Visual Studios. This is designed for the Commo section for the 2-150 HHB FA with the Indiana National Guard. 
   Items can be added, deleted, updated, and retrieved from this API. Items will have a list of Checkouts to keep track of where 
   and when an item was checked out of the inventory. This checkout history can be retrieved from this API. 
 
