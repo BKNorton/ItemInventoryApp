@@ -29,7 +29,7 @@ Entity Framework API to track an inventory of Items
   1. Update the migrations
   2. Run the App in Debug mode and wait for the swagger page to open
   3. Click on Post Radio for Items
-    - add the following items.
+    - add the following items, one at a time.
       
           {
             "name": "Radio",
