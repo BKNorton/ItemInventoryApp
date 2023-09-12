@@ -1,14 +1,14 @@
 # ItemInventoryApp
 Entity Framework API to track an inventory of Items 
 
-# Description :
+# Description 
 
   This app is an API for managing Items in an inventory. It uses Entity Framework to create a database in a local file created 
   by Visual Studios. This is specifically designed to use with the National Guard for the S6 shop at the armory I work at. 
   Items can be added, deleted, updated, and retrieved from this API. Items will have a list of Checkouts to keep track of where 
   and when an item was checked out of the inventory. This checkout history can be retrieved from this API. 
 
-# Features :
+# Features 
 
   1. Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program.
      - Lists are used throughout this project. An example can be found in the Item class where it uses a list of type Checkout.
@@ -23,7 +23,7 @@ Entity Framework API to track an inventory of Items
   4. Make your application asynchronous.
      - The API utilizes asymcronous programming in the Controllers and Repositories.
     
-# Instructions :
+# Instructions 
 
   - No data is seeded to the inventory. Follow these instructions to create an Inventory to work with.
   1. Update the migrations
