@@ -91,3 +91,7 @@ Entity Framework API to track an inventory of Items
 
   8. Click on GetItemHistory for Items
      - Use the same Item id you used to create the previous Checkouts and execute to see Items Checkouts
+    
+# Updates
+  I am currently in the process of shifting this project into a .net maui project. I plan to either connect the .net maui 
+  app to this api or (most likely) will recreate this database using Azure. Check back soon for more updates.
