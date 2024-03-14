@@ -1,27 +1,16 @@
-# ItemInventoryApp
-Entity Framework API to track an inventory of Items 
+<h1>
+  Description
+</h1>
+<p>
+  This is an ASP .Net web API used to manage the inventory at the armory I work. It uses entity framework to implement the SQLite database.
+</p>
+<h2>
+  Notes
+</h2>
+<ul>
+  <li>This creates the database for you. There is no existing database and all tables will need to be populated by each individual user (currently)</li>
+</ul>
 
-# Description 
-
-  This app is an API for managing Items in an inventory. It uses Entity Framework to create a database in a local file created 
-  by Visual Studios. This is designed for the Commo section for the 2-150 HHB FA with the Indiana National Guard. 
-  Items can be added, deleted, updated, and retrieved from this API. Items will have a list of Checkouts to keep track of where 
-  and when an item was checked out of the inventory. This checkout history can be retrieved from this API. 
-
-# Features 
-
-  1. Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program.
-     - Lists are used throughout this project. An example can be found in the Item class where it uses a list of type Checkout.
-      This list can be populated by creating Checkouts and this list can also be retrieved through this API.
-
-  2. Make a generic class and use it.
-     - A generic repository was created and used with the API Controllers.
-    
-  3. Make your application a CRUD API.
-     - This porject is an ASP.net API that uses CRUD methods to create, read, update, and delete items.
-    
-  4. Make your application asynchronous.
-     - The API utilizes asymcronous programming in the Controllers and Repositories.
     
 # Instructions 
 
