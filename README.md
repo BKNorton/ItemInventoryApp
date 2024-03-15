@@ -2,7 +2,7 @@
   Description
 </h1>
 <p>
-  This is an ASP .Net web API used to manage the inventory at the armory I work. It uses entity framework to implement the SQLite database.
+  This is an ASP .Net web API used to manage the inventory for the armory I work at. It uses entity framework to implement the SQLite database.
 </p>
 <h2>
   Notes
