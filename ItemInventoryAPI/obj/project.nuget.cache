@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "usqmR+qffFAP+F79U7lPTy//hdVt8zXrbnsPIPJpVGi4OK54//MqwDzKV9UCS3ISfFb2YPd3nENye9yVoW5woQ==",
+  "dgSpecHash": "sT2fr8/qAqY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kirk\\Documents\\CodeLouisville\\ItemInventoryApp\\ItemInventoryAPI\\ItemInventory.API.csproj",
+  "projectFilePath": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\ItemInventory.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kirk\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Kirk\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

@@ -1,0 +1,325 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|c:\\users\\kirk\\source\\repos\\iteminventoryapp\\iteminventoryapi\\iteminventorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|solutionrelative:iteminventoryapi\\iteminventorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|c:\\users\\kirk\\source\\repos\\iteminventoryapp\\iteminventoryapi\\migrations\\iteminventorycontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|solutionrelative:iteminventoryapi\\migrations\\iteminventorycontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|c:\\users\\kirk\\source\\repos\\iteminventoryapp\\iteminventoryapi\\migrations\\20230727032906_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|solutionrelative:iteminventoryapi\\migrations\\20230727032906_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|c:\\users\\kirk\\source\\repos\\iteminventoryapp\\iteminventoryapi\\dtomodels\\radiodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|solutionrelative:iteminventoryapi\\dtomodels\\radiodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|c:\\users\\kirk\\source\\repos\\iteminventoryapp\\iteminventoryapi\\dtomodels\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|solutionrelative:iteminventoryapi\\dtomodels\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|c:\\users\\kirk\\source\\repos\\iteminventoryapp\\iteminventoryapi\\dtomodels\\antennadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|solutionrelative:iteminventoryapi\\dtomodels\\antennadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|c:\\users\\kirk\\source\\repos\\iteminventoryapp\\iteminventoryapi\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|solutionrelative:iteminventoryapi\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|c:\\users\\kirk\\source\\repos\\iteminventoryapp\\iteminventoryapi\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|solutionrelative:iteminventoryapi\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|c:\\users\\kirk\\source\\repos\\iteminventoryapp\\iteminventoryapi\\controllers\\checkoutscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|solutionrelative:iteminventoryapi\\controllers\\checkoutscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|c:\\users\\kirk\\source\\repos\\iteminventoryapp\\iteminventoryapi\\repositories\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|solutionrelative:iteminventoryapi\\repositories\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|c:\\users\\kirk\\source\\repos\\iteminventoryapp\\iteminventoryapi\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|solutionrelative:iteminventoryapi\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|c:\\users\\kirk\\source\\repos\\iteminventoryapp\\iteminventoryapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|solutionrelative:iteminventoryapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|c:\\users\\kirk\\source\\repos\\iteminventoryapp\\iteminventoryapi\\models\\antenna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|solutionrelative:iteminventoryapi\\models\\antenna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|c:\\users\\kirk\\source\\repos\\iteminventoryapp\\iteminventoryapi\\models\\checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|solutionrelative:iteminventoryapi\\models\\checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|c:\\users\\kirk\\source\\repos\\iteminventoryapp\\iteminventoryapi\\models\\radio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|solutionrelative:iteminventoryapi\\models\\radio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|c:\\users\\kirk\\source\\repos\\iteminventoryapp\\iteminventoryapi\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|solutionrelative:iteminventoryapi\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|c:\\users\\kirk\\source\\repos\\iteminventoryapp\\iteminventoryapi\\repositories\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|solutionrelative:iteminventoryapi\\repositories\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|c:\\users\\kirk\\source\\repos\\iteminventoryapp\\iteminventoryapi\\migrations\\20230727032906_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C75D87A5-6FB0-4160-8789-618574758410}|ItemInventoryAPI\\ItemInventory.API.csproj|solutionrelative:iteminventoryapi\\migrations\\20230727032906_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ItemInventoryContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\Migrations\\ItemInventoryContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "ItemInventoryAPI\\Migrations\\ItemInventoryContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\Migrations\\ItemInventoryContextModelSnapshot.cs",
+              "RelativeToolTip": "ItemInventoryAPI\\Migrations\\ItemInventoryContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:44:12.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20230727032906_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\Migrations\\20230727032906_InitialCreate.cs",
+              "RelativeDocumentMoniker": "ItemInventoryAPI\\Migrations\\20230727032906_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\Migrations\\20230727032906_InitialCreate.cs",
+              "RelativeToolTip": "ItemInventoryAPI\\Migrations\\20230727032906_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:44:12.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RadioDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\DTOModels\\RadioDTO.cs",
+              "RelativeDocumentMoniker": "ItemInventoryAPI\\DTOModels\\RadioDTO.cs",
+              "ToolTip": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\DTOModels\\RadioDTO.cs",
+              "RelativeToolTip": "ItemInventoryAPI\\DTOModels\\RadioDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:44:12.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ItemDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\DTOModels\\ItemDTO.cs",
+              "RelativeDocumentMoniker": "ItemInventoryAPI\\DTOModels\\ItemDTO.cs",
+              "ToolTip": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\DTOModels\\ItemDTO.cs",
+              "RelativeToolTip": "ItemInventoryAPI\\DTOModels\\ItemDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:44:12.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AntennaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\DTOModels\\AntennaDTO.cs",
+              "RelativeDocumentMoniker": "ItemInventoryAPI\\DTOModels\\AntennaDTO.cs",
+              "ToolTip": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\DTOModels\\AntennaDTO.cs",
+              "RelativeToolTip": "ItemInventoryAPI\\DTOModels\\AntennaDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:44:12.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "ItemInventoryAPI\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "ItemInventoryAPI\\Repositories\\GenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:44:12.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\Controllers\\ItemsController.cs",
+              "RelativeDocumentMoniker": "ItemInventoryAPI\\Controllers\\ItemsController.cs",
+              "ToolTip": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\Controllers\\ItemsController.cs",
+              "RelativeToolTip": "ItemInventoryAPI\\Controllers\\ItemsController.cs",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAuwIQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:44:12.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CheckoutsController.cs",
+              "DocumentMoniker": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\Controllers\\CheckoutsController.cs",
+              "RelativeDocumentMoniker": "ItemInventoryAPI\\Controllers\\CheckoutsController.cs",
+              "ToolTip": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\Controllers\\CheckoutsController.cs",
+              "RelativeToolTip": "ItemInventoryAPI\\Controllers\\CheckoutsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:44:12.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\Repositories\\ItemRepository.cs",
+              "RelativeDocumentMoniker": "ItemInventoryAPI\\Repositories\\ItemRepository.cs",
+              "ToolTip": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\Repositories\\ItemRepository.cs",
+              "RelativeToolTip": "ItemInventoryAPI\\Repositories\\ItemRepository.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAmwGQAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:44:12.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ItemInventoryContext.cs",
+              "DocumentMoniker": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\ItemInventoryContext.cs",
+              "RelativeDocumentMoniker": "ItemInventoryAPI\\ItemInventoryContext.cs",
+              "ToolTip": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\ItemInventoryContext.cs",
+              "RelativeToolTip": "ItemInventoryAPI\\ItemInventoryContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:44:12.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "ItemInventoryAPI\\Models\\Item.cs",
+              "ToolTip": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\Models\\Item.cs",
+              "RelativeToolTip": "ItemInventoryAPI\\Models\\Item.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:44:12.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ItemInventoryAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\Program.cs",
+              "RelativeToolTip": "ItemInventoryAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:44:12.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Antenna.cs",
+              "DocumentMoniker": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\Models\\Antenna.cs",
+              "RelativeDocumentMoniker": "ItemInventoryAPI\\Models\\Antenna.cs",
+              "ToolTip": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\Models\\Antenna.cs",
+              "RelativeToolTip": "ItemInventoryAPI\\Models\\Antenna.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:44:12.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Checkout.cs",
+              "DocumentMoniker": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\Models\\Checkout.cs",
+              "RelativeDocumentMoniker": "ItemInventoryAPI\\Models\\Checkout.cs",
+              "ToolTip": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\Models\\Checkout.cs",
+              "RelativeToolTip": "ItemInventoryAPI\\Models\\Checkout.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:44:12.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Radio.cs",
+              "DocumentMoniker": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\Models\\Radio.cs",
+              "RelativeDocumentMoniker": "ItemInventoryAPI\\Models\\Radio.cs",
+              "ToolTip": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\Models\\Radio.cs",
+              "RelativeToolTip": "ItemInventoryAPI\\Models\\Radio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:44:12.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "ItemInventoryAPI\\Repositories\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "ItemInventoryAPI\\Repositories\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:44:12.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\Repositories\\IItemRepository.cs",
+              "RelativeDocumentMoniker": "ItemInventoryAPI\\Repositories\\IItemRepository.cs",
+              "ToolTip": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\Repositories\\IItemRepository.cs",
+              "RelativeToolTip": "ItemInventoryAPI\\Repositories\\IItemRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:44:12.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20230727032906_InitialCreate.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\Migrations\\20230727032906_InitialCreate.Designer.cs",
+              "RelativeDocumentMoniker": "ItemInventoryAPI\\Migrations\\20230727032906_InitialCreate.Designer.cs",
+              "ToolTip": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\Migrations\\20230727032906_InitialCreate.Designer.cs",
+              "RelativeToolTip": "ItemInventoryAPI\\Migrations\\20230727032906_InitialCreate.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:44:12.904Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

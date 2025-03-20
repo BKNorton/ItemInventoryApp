@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kirk\\Documents\\CodeLouisville\\ItemInventoryApp\\ItemInventoryAPI\\ItemInventory.API.csproj": {}
+    "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\ItemInventory.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kirk\\Documents\\CodeLouisville\\ItemInventoryApp\\ItemInventoryAPI\\ItemInventory.API.csproj": {
+    "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\ItemInventory.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kirk\\Documents\\CodeLouisville\\ItemInventoryApp\\ItemInventoryAPI\\ItemInventory.API.csproj",
+        "projectUniqueName": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\ItemInventory.API.csproj",
         "projectName": "ItemInventory.API",
-        "projectPath": "C:\\Users\\Kirk\\Documents\\CodeLouisville\\ItemInventoryApp\\ItemInventoryAPI\\ItemInventory.API.csproj",
+        "projectPath": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\ItemInventory.API.csproj",
         "packagesPath": "C:\\Users\\Kirk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kirk\\Documents\\CodeLouisville\\ItemInventoryApp\\ItemInventoryAPI\\obj\\",
+        "outputPath": "C:\\Users\\Kirk\\source\\repos\\ItemInventoryApp\\ItemInventoryAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -27,7 +27,6 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,7 +39,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net6.0": {
@@ -92,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

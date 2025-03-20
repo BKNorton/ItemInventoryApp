@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "kdBNY1esZUhmoJLEdA8DVvSxajuz7IiWpZfpu95W1pQ=",
+  "Hash": "ixGzzb55F+MVP1oZPFEcHbXKn76E0Pm4C30aBweBPHE=",
   "Source": "ItemInventory.API",
   "BasePath": "_content/ItemInventory.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }
